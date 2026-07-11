@@ -12,7 +12,7 @@
       "nav.home": "Home",
       "nav.about": "About",
       "nav.services": "Services",
-      "nav.demo": "Demo",
+      "nav.demo": "Portfolio",
       "nav.pricing": "Pricing",
       "nav.clients": "Clients",
       "nav.contact": "Contact",
@@ -23,7 +23,7 @@
       "hero.title_highlight": "Virtual",
       "hero.desc": "NextGenAR transforms your physical products into immersive 3D and Augmented Reality experiences. Customers scan a QR code or click a link — and instantly explore your products in 3D and AR, right from their browser.",
       "hero.btn_start": "Get Started",
-      "hero.btn_demo": "View Demo",
+      "hero.btn_demo": "View Portfolio",
       "hero.hint": "Drag to rotate · Tap AR to view in your space",
       "hero.stat1": "3D Products Created",
       "hero.stat2": "AR Views",
@@ -126,9 +126,9 @@
       "services.title": "Our Services",
       "services.desc": "Everything you need to bring your products into the augmented world",
 
-      // Demo page
-      "demo.title": "Live AR Demo",
-      "demo.desc": "Experience the power of 3D and AR directly in your browser",
+      // Portfolio page
+      "demo.title": "3D Model Portfolio",
+      "demo.desc": "Explore our collection of 3D models in augmented reality",
 
       // Contact page
       "contact.title": "Get in Touch",
@@ -148,7 +148,7 @@
       "nav.home": "Accueil",
       "nav.about": "À propos",
       "nav.services": "Services",
-      "nav.demo": "Démo",
+      "nav.demo": "Portfolio",
       "nav.pricing": "Tarifs",
       "nav.clients": "Clients",
       "nav.contact": "Contact",
@@ -159,7 +159,7 @@
       "hero.title_highlight": "Virtuel",
       "hero.desc": "NextGenAR transforme vos produits physiques en expériences 3D et réalité augmentée immersives. Les clients scannent un QR code ou cliquent sur un lien — et explorent instantanément vos produits en 3D et RA, directement depuis leur navigateur.",
       "hero.btn_start": "Commencer",
-      "hero.btn_demo": "Voir la Démo",
+      "hero.btn_demo": "Voir le Portfolio",
       "hero.hint": "Glissez pour pivoter · Touchez AR pour visualiser dans votre espace",
       "hero.stat1": "Produits 3D Créés",
       "hero.stat2": "Vues RA",
@@ -262,9 +262,9 @@
       "services.title": "Nos Services",
       "services.desc": "Tout ce dont vous avez besoin pour propulser vos produits dans le monde augmenté",
 
-      // Demo page
-      "demo.title": "Démo RA en Direct",
-      "demo.desc": "Découvrez la puissance de la 3D et de la RA directement dans votre navigateur",
+      // Portfolio page
+      "demo.title": "Portefeuille de Modèles 3D",
+      "demo.desc": "Explorez notre collection de modèles 3D en réalité augmentée",
 
       // Contact page
       "contact.title": "Contactez-Nous",
@@ -284,7 +284,7 @@
       "nav.home": "الرئيسية",
       "nav.about": "من نحن",
       "nav.services": "الخدمات",
-      "nav.demo": "العرض",
+      "nav.demo": "بورتفوليو",
       "nav.pricing": "الأسعار",
       "nav.clients": "العملاء",
       "nav.contact": "اتصل بنا",
@@ -295,7 +295,7 @@
       "hero.title_highlight": "الافتراضي",
       "hero.desc": "يحوّل NextGenAR منتجاتك المادية إلى تجارب ثلاثية الأبعاد وواقع معزز غامرة. يقوم العملاء بمسح رمز QR أو النقر على رابط — واستكشاف منتجاتك فوراً بالأبعاد الثلاثية والواقع المعزز مباشرة من متصفحهم.",
       "hero.btn_start": "ابدأ الآن",
-      "hero.btn_demo": "شاهد العرض",
+      "hero.btn_demo": "عرض البورتفوليو",
       "hero.hint": "اسحب للتدوير · اضغط AR للعرض في مساحتك",
       "hero.stat1": "منتجات ثلاثية الأبعاد",
       "hero.stat2": "مشاهدات الواقع المعزز",
@@ -389,9 +389,9 @@
       "services.title": "خدماتنا",
       "services.desc": "كل ما تحتاجه لإطلاق منتجاتك نحو العالم المعزز",
 
-      // Demo page
-      "demo.title": "عرض الواقع المعزز المباشر",
-      "demo.desc": "اكتشف قوة ثلاثية الأبعاد والواقع المعزز مباشرة في متصفحك",
+      // Portfolio page
+      "demo.title": "معرض النماذج ثلاثية الأبعاد",
+      "demo.desc": "استكشف مجموعتنا من النماذج ثلاثية الأبعاد بالواقع المعزز",
 
       // Contact page
       "contact.title": "تواصل معنا",

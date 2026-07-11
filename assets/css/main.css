@@ -359,7 +359,7 @@ h6 {
 }
 
 [dir="rtl"] .hero-btns {
-  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 [dir="rtl"] .section-title {
@@ -962,7 +962,7 @@ section,
 }
 
 .hero .hero-content {
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 .hero .hero-content h1 {
@@ -998,8 +998,6 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   line-height: 1.6;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -1011,7 +1009,7 @@ section,
 .hero .hero-content .hero-btns {
   display: flex;
   gap: 1.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -1210,6 +1208,7 @@ section,
 
   .hero .hero-content {
     margin-bottom: 3rem;
+    text-align: center;
   }
 
   .hero .hero-content h1 {
@@ -1218,6 +1217,12 @@ section,
 
   .hero .hero-content p {
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero .hero-content .hero-btns {
+    justify-content: center;
   }
 
   .hero .hero-image-container {
