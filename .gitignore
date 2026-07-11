@@ -1,0 +1,11 @@
+# Tool-specific
+.codely-cli/
+.codely/
+
+# Binary packages (exceeds GitHub 100MB limit)
+*.vsix
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
