@@ -1,0 +1,12 @@
+# NextGenAR — robots.txt
+# https://yourdomain.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block access to internal/template assets that shouldn't be indexed
+Disallow: /assets/vendor/
+Disallow: /starter-page.html
+
+# Sitemap
+Sitemap: https://yourdomain.com/sitemap.xml

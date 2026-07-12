@@ -237,7 +237,8 @@ h6 {
   margin-right: 8px;
 }
 
-.header .logo h1 {
+.header .logo h1,
+.header .logo span.sitename {
   font-size: 30px;
   margin: 0;
   font-weight: 400;
