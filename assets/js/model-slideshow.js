@@ -1,40 +1,12 @@
 /**
  * 3D Model Showcase Slideshow
  * Auto-rotating model-viewer slideshow.
- * Add new models to the MODELS array below to include them automatically.
+ * Models are loaded from the shared models-data.js file (window.NGAR_MODELS).
  */
 (function () {
   "use strict";
 
-  // ── Add new GLB models here ──────────────────────────────────
-  const MODELS = [
-    {
-      src: "https://raw.githubusercontent.com/Nrdam/3D-AR/main/Furniture%20%26%20Decor/chair.glb",
-      name: "Chair",
-      description: "Modern chair — 3D & AR ready"
-    },
-    {
-      src: "https://raw.githubusercontent.com/Nrdam/3D-AR/main/Furniture%20%26%20Decor/furniture__no-07%20chaire.glb",
-      name: "Chair No. 07",
-      description: "Furniture No. 07 chair model"
-    },
-    {
-      src: "https://raw.githubusercontent.com/Nrdam/3D-AR/main/Furniture%20%26%20Decor/gaming_chair.glb",
-      name: "Gaming Chair",
-      description: "Ergonomic gaming chair in 3D"
-    },
-    {
-      src: "https://raw.githubusercontent.com/Nrdam/3D-AR/main/Furniture%20%26%20Decor/luxury_modern_couch_-_black.glb",
-      name: "Luxury Couch",
-      description: "Black luxury modern couch — AR ready"
-    },
-    {
-      src: "https://raw.githubusercontent.com/Nrdam/3D-AR/main/Furniture%20%26%20Decor/realistic_bed_3d_model.glb",
-      name: "Realistic Bed",
-      description: "Photorealistic bed 3D model"
-    }
-  ];
-  // ──────────────────────────────────────────────────────────────
+  const MODELS = window.NGAR_MODELS || [];
 
   const AUTO_PLAY_INTERVAL = 5000;
   let currentIndex = 0;

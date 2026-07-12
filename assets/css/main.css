@@ -3975,8 +3975,8 @@ section,
   font-size: 1.2rem;
 }
 
-/* ---- Demo Page ---- */
-.demo-page .demo-viewer-card {
+/* ---- Portfolio Page ---- */
+.portfolio-page .portfolio-viewer-card {
   background: #fff;
   border: 1px solid #e2e8f0;
   border-radius: 24px;
@@ -3984,26 +3984,26 @@ section,
   box-shadow: 0 30px 70px rgba(37, 99, 235, 0.08);
 }
 
-.demo-page .demo-viewer-card model-viewer {
+.portfolio-page .portfolio-viewer-card model-viewer {
   width: 100%;
   height: 550px;
   --poster-color: #f1f5f9;
 }
 
-.demo-page .demo-info-card {
+.portfolio-page .portfolio-info-card {
   background: #fff;
   border: 1px solid #e2e8f0;
   border-radius: 20px;
   padding: 30px;
 }
 
-.demo-page .demo-feature-list {
+.portfolio-page .portfolio-feature-list {
   list-style: none;
   padding: 0;
   margin: 20px 0 0 0;
 }
 
-.demo-page .demo-feature-list li {
+.portfolio-page .portfolio-feature-list li {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -4012,13 +4012,47 @@ section,
   font-size: 0.95rem;
 }
 
-.demo-page .demo-feature-list li:last-child {
+.portfolio-page .portfolio-feature-list li:last-child {
   border-bottom: none;
 }
 
-.demo-page .demo-feature-list li i {
+.portfolio-page .portfolio-feature-list li i {
   color: var(--accent-color);
   font-size: 1.2rem;
+}
+
+/* Portfolio grid cards */
+.portfolio-card-item {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.06);
+}
+
+.portfolio-card-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(37, 99, 235, 0.12);
+  border-color: var(--accent-color);
+}
+
+.portfolio-card-item.is-active {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color), transparent 75%);
+}
+
+.portfolio-card-item model-viewer {
+  width: 100%;
+  height: 280px;
+  --poster-color: #f1f5f9;
+  pointer-events: none;
+}
+
+.portfolio-card-info {
+  padding: 16px 20px;
+  text-align: center;
 }
 
 /* ---- Mission / Vision (About Page) ---- */
@@ -4231,8 +4265,12 @@ section,
     height: 350px;
   }
 
-  .demo-page .demo-viewer-card model-viewer {
+  .portfolio-page .portfolio-viewer-card model-viewer {
     height: 350px;
+  }
+
+  .portfolio-card-item model-viewer {
+    height: 220px;
   }
 
   .product-grid {

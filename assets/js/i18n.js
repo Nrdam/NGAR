@@ -55,8 +55,6 @@
       "features.f2_desc": "WebAR technology places products in the real world. No app download — works instantly on iOS and Android browsers.",
       "features.f3": "QR Code System",
       "features.f3_desc": "Every product gets a unique QR code. Track scans, manage codes, and place them anywhere customers shop.",
-      "features.f4": "SaaS Dashboard",
-      "features.f4_desc": "Manage your entire catalog from one dashboard. Upload models, track analytics, manage QR codes, and monitor AR views.",
 
       // Use Cases
       "usecases.title": "Perfect For Any Business",
@@ -191,8 +189,6 @@
       "features.f2_desc": "La technologie WebRA place les produits dans le monde réel. Aucun téléchargement d'application — fonctionne instantanément sur les navigateurs iOS et Android.",
       "features.f3": "Système de QR Codes",
       "features.f3_desc": "Chaque produit reçoit un QR code unique. Suivez les scans, gérez les codes et placez-les partout où vos clients achètent.",
-      "features.f4": "Tableau de Bord SaaS",
-      "features.f4_desc": "Gérez tout votre catalogue depuis un seul tableau de bord. Téléchargez des modèles, suivez les analyses, gérez les QR codes et surveillez les vues RA.",
 
       // Use Cases
       "usecases.title": "Parfait Pour Toute Entreprise",
@@ -327,8 +323,6 @@
       "features.f2_desc": "تقنية WebAR تضع المنتجات في العالم الحقيقي. لا حاجة لتحميل تطبيق — يعمل فوراً على متصفحات iOS و Android.",
       "features.f3": "نظام رموز QR",
       "features.f3_desc": "يحصل كل منتج على رمز QR فريد. تتبع المسحات وأدِر الرموز وضعها في أي مكان يتسوق فيه عملاؤك.",
-      "features.f4": "لوحة تحكم SaaS",
-      "features.f4_desc": "أدر كتالوجك بالكامل من لوحة واحدة. ارفع النماذج وتتبع التحليلات وأدِر رموز QR وراقب مشاهدات الواقع المعزز.",
 
       // Use Cases
       "usecases.title": "حالات الاستخدام",
