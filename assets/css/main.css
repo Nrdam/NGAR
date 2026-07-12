@@ -3287,6 +3287,7 @@ section,
   width: 100%;
   height: 450px;
   --poster-color: #f1f5f9;
+  direction: ltr;
 }
 
 .model-viewer-container model-viewer::part(default-progress-mask) {
@@ -3462,6 +3463,7 @@ section,
 
 .slideshow-stage model-viewer {
   --poster-color: transparent;
+  direction: ltr;
 }
 
 .slideshow-info {
@@ -3812,6 +3814,7 @@ section,
   width: 100%;
   height: 250px;
   --poster-color: #f1f5f9;
+  direction: ltr;
 }
 
 .product-card-ar .product-badge {
@@ -3995,6 +3998,7 @@ section,
   width: 100%;
   height: 550px;
   --poster-color: #f1f5f9;
+  direction: ltr;
 }
 
 .portfolio-page .portfolio-info-card {
@@ -4055,6 +4059,7 @@ section,
   height: 280px;
   --poster-color: #f1f5f9;
   pointer-events: none;
+  direction: ltr;
 }
 
 .portfolio-card-info {
