@@ -481,11 +481,12 @@
     document.addEventListener("click", function () {
       dropdown.classList.remove("active");
     });
-
-    // Apply saved language on load
-    applyTranslations(currentLang);
   }
 
-  // Initialize on DOM ready
-  document.addEventListener("DOMContentLoaded", initLanguageSwitcher);
+  // Always apply saved language on DOM ready, even if the language
+  // switcher UI is not present on the page.
+  document.addEventListener("DOMContentLoaded", function () {
+    applyTranslations(currentLang);
+    initLanguageSwitcher();
+  });
 })();
