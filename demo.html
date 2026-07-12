@@ -98,11 +98,11 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio</h1>
+        <h1 class="mb-2 mb-lg-0" data-i18n="nav.demo">Portfolio</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio</li>
+            <li class="current" data-i18n="nav.demo">Portfolio</li>
           </ol>
         </nav>
       </div>
@@ -111,9 +111,9 @@
     <!-- Featured Model Section -->
     <section id="portfolio-featured" class="section">
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Portfolio</span>
-        <h2>3D Model Portfolio</h2>
-        <p>Explore our collection of 3D models — interact, rotate, and view them in augmented reality</p>
+        <span class="description-title" data-i18n="demo.badge">Portfolio</span>
+        <h2 data-i18n="demo.title">3D Model Portfolio</h2>
+        <p data-i18n="demo.desc">Explore our collection of 3D models — interact, rotate, and view them in augmented reality</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -122,14 +122,14 @@
             <div class="portfolio-viewer-card">
               <model-viewer id="featured-viewer" src="" alt="Featured 3D model" auto-rotate camera-controls ar shadow-intensity="1" style="width:100%; height:550px;"></model-viewer>
               <div class="text-center py-3">
-                <small class="text-muted"><i class="bi bi-hand-index"></i> Drag to rotate · Scroll to zoom · Tap the AR icon to view in your space</small>
+                <small class="text-muted"><i class="bi bi-hand-index"></i> <span data-i18n="demo.hint">Drag to rotate · Scroll to zoom · Tap the AR icon to view in your space</span></small>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="portfolio-info-card h-100 d-flex flex-column">
-              <span class="badge-ar mb-3"><i class="bi bi-stars"></i> 3D Portfolio</span>
+              <span class="badge-ar mb-3"><i class="bi bi-stars"></i> <span data-i18n="demo.feature_badge">3D Portfolio</span></span>
               <h3 id="featured-name" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 15px;"></h3>
               <p id="featured-desc" style="font-size: 0.95rem; line-height: 1.7;"></p>
 
@@ -154,9 +154,9 @@
     <!-- Model Gallery Section -->
     <section id="portfolio-gallery" class="section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Gallery</span>
-        <h2>All 3D Models</h2>
-        <p>Click any model to load it in the viewer above</p>
+        <span class="description-title" data-i18n="demo.gallery_badge">Gallery</span>
+        <h2 data-i18n="demo.gallery_title">All 3D Models</h2>
+        <p data-i18n="demo.gallery_desc">Click any model to load it in the viewer above</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -169,9 +169,9 @@
     <!-- Instructions Section -->
     <section id="instructions" class="section">
       <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Guide</span>
-        <h2>How to View in AR</h2>
-        <p>Follow these simple steps to experience products in augmented reality</p>
+        <span class="description-title" data-i18n="demo.guide_badge">Guide</span>
+        <h2 data-i18n="demo.guide_title">How to View in AR</h2>
+        <p data-i18n="demo.guide_desc">Follow these simple steps to experience products in augmented reality</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -179,30 +179,30 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="value-card">
               <div class="value-icon"><i class="bi bi-phone"></i></div>
-              <h4>1. Open on Your Phone</h4>
-              <p>Open this page on your mobile device, or scan the QR code with your phone's camera to launch the 3D viewer directly.</p>
+              <h4 data-i18n="demo.step1_title">1. Open on Your Phone</h4>
+              <p data-i18n="demo.step1_desc">Open this page on your mobile device, or scan the QR code with your phone's camera to launch the 3D viewer directly.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="value-card">
               <div class="value-icon"><i class="bi bi-box-arrow-up-right"></i></div>
-              <h4>2. Tap the AR Icon</h4>
-              <p>Look for the AR icon in the bottom-right corner of the 3D viewer and tap it to launch the augmented reality experience.</p>
+              <h4 data-i18n="demo.step2_title">2. Tap the AR Icon</h4>
+              <p data-i18n="demo.step2_desc">Look for the AR icon in the bottom-right corner of the 3D viewer and tap it to launch the augmented reality experience.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="value-card">
               <div class="value-icon"><i class="bi bi-grid-3x3"></i></div>
-              <h4>3. Point at a Flat Surface</h4>
-              <p>Move your phone to scan a flat surface like a floor or table. The model will appear in your real-world space — drag to reposition.</p>
+              <h4 data-i18n="demo.step3_title">3. Point at a Flat Surface</h4>
+              <p data-i18n="demo.step3_desc">Move your phone to scan a flat surface like a floor or table. The model will appear in your real-world space — drag to reposition.</p>
             </div>
           </div>
         </div>
 
         <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="500">
-          <span class="badge-ar"><i class="bi bi-info-circle"></i> AR works on iOS 12+ (Safari) and Android 8+ (Chrome)</span>
+          <span class="badge-ar"><i class="bi bi-info-circle"></i> <span data-i18n="demo.ar_note">AR works on iOS 12+ (Safari) and Android 8+ (Chrome)</span></span>
         </div>
       </div>
     </section><!-- /Instructions Section -->
@@ -212,10 +212,10 @@
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-9 cta-content" data-aos="fade-up">
-            <span class="badge-ar mb-3" style="background:rgba(255,255,255,0.15); color:#fff;"><i class="bi bi-rocket-takeoff"></i> Get Started</span>
-            <h2>Want This for Your Products?</h2>
-            <p>See how NextGenAR can transform your catalog into immersive 3D and AR experiences. Get your first model free — no credit card required.</p>
-            <a href="contact.html" class="btn-cta">Start a Project <i class="bi bi-arrow-right ms-2"></i></a>
+            <span class="badge-ar mb-3" style="background:rgba(255,255,255,0.15); color:#fff;"><i class="bi bi-rocket-takeoff"></i> <span data-i18n="cta.badge">Get Started</span></span>
+            <h2 data-i18n="demo.cta_title">Want This for Your Products?</h2>
+            <p data-i18n="demo.cta_desc">See how NextGenAR can transform your catalog into immersive 3D and AR experiences. Get your first model free — no credit card required.</p>
+            <a href="contact.html" class="btn-cta"><span data-i18n="cta.btn">Start a Project</span> <i class="bi bi-arrow-right ms-2"></i></a>
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
+            <h4 data-i18n="footer.address">Address</h4>
             <p>108 Innovation Drive</p>
             <p>San Francisco, CA 94016</p>
             <p></p>
@@ -238,19 +238,19 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
-            <p><strong>Phone:</strong> <span>+1 (555) 123-4567</span><br><strong>Email:</strong> <span>hello@nextgenar.com</span><br></p>
+            <h4 data-i18n="footer.contact">Contact</h4>
+            <p><strong data-i18n="footer.phone">Phone:</strong> <span>+1 (555) 123-4567</span><br><strong data-i18n="footer.email">Email:</strong> <span>hello@nextgenar.com</span><br></p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Working Hours</h4>
-            <p><strong>Mon-Fri:</strong> <span>9AM - 7PM</span><br><strong>Sat-Sun:</strong>: <span>10AM - 4PM</span></p>
+            <h4 data-i18n="footer.hours">Working Hours</h4>
+            <p><strong data-i18n="footer.mon_fri">Mon-Fri:</strong> <span>9AM - 7PM</span><br><strong data-i18n="footer.sat_sun">Sat-Sun:</strong>: <span>10AM - 4PM</span></p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6">
-          <h4>Follow Us</h4>
+          <h4 data-i18n="footer.follow">Follow Us</h4>
           <div class="social-links d-flex">
             <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -261,7 +261,7 @@
       </div>
     </div>
     <div class="container copyright text-center mt-4">
-      <p>© <span>2025</span> <strong class="px-1 sitename">NextGenAR</strong> <span>Where Physical Meets Virtual</span></p>
+      <p>© <span>2025</span> <strong class="px-1 sitename">NextGenAR</strong> <span data-i18n="footer.copyright">Where Physical Meets Virtual</span></p>
     </div>
   </footer>
 
